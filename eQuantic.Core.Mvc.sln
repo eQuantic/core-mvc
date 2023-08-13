@@ -7,6 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "root", "root", "{A0EC4FBF-B
 		README.md = README.md
 		NuGet.Config = NuGet.Config
 		LICENSE = LICENSE
+		.github\workflows\dotnetcore.yml = .github\workflows\dotnetcore.yml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C72D433C-C088-408C-95C0-5F9D6654BC6A}"
