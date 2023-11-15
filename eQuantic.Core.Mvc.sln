@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "root", "root", "{A0EC4FBF-B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C72D433C-C088-408C-95C0-5F9D6654BC6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eQuantic.Core.Mvc.Tests", "test\eQuantic.Core.Mvc.Tests\eQuantic.Core.Mvc.Tests.csproj", "{EBF57490-C637-4CB9-839E-7AEDA2921292}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B7447227-F5DE-451D-A19A-AAFD5B63B78C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,8 +26,13 @@ Global
 		{D36668C3-868A-4CE1-A195-16A7AD480E8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D36668C3-868A-4CE1-A195-16A7AD480E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D36668C3-868A-4CE1-A195-16A7AD480E8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBF57490-C637-4CB9-839E-7AEDA2921292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBF57490-C637-4CB9-839E-7AEDA2921292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBF57490-C637-4CB9-839E-7AEDA2921292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBF57490-C637-4CB9-839E-7AEDA2921292}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D36668C3-868A-4CE1-A195-16A7AD480E8C} = {C72D433C-C088-408C-95C0-5F9D6654BC6A}
+		{EBF57490-C637-4CB9-839E-7AEDA2921292} = {B7447227-F5DE-451D-A19A-AAFD5B63B78C}
 	EndGlobalSection
 EndGlobal

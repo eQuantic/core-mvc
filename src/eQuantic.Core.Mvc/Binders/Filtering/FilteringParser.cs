@@ -26,15 +26,13 @@ public static class FilteringParser
     /// <returns>An enumerable of i filtering</returns>
     public static IEnumerable<IFiltering> Parse(string values)
     {
-        if (string.IsNullOrEmpty(values)) throw new ArgumentException(nameof(values));
+        if (string.IsNullOrEmpty(values)) 
+            throw new ArgumentException(null, nameof(values));
 
         var matches = Regex.Matches(values, Linq.Filter.Filtering.ArgsRegex);
-        if (!matches.Any())
-        {
-            return new List<IFiltering> { CompositeFiltering.ParseComposite(values) };
-        }
-
-        return matches.Select(m => CompositeFiltering.ParseComposite(m.Value.Trim()));
+        return !matches.Any() ? 
+            new List<IFiltering> { CompositeFiltering.ParseComposite(values) } : 
+            matches.Select(m => CompositeFiltering.ParseComposite(m.Value.Trim()));
     }
 
     /// <summary>

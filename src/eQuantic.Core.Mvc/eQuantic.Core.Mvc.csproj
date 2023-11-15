@@ -4,9 +4,9 @@
         <Description>eQuantic Core MVC Library</Description>
         <Copyright>2017</Copyright>
         <AssemblyTitle>eQuantic.Core.Mvc</AssemblyTitle>
-        <Version>2.0.2.0</Version>
+        <Version>2.0.3.0</Version>
         <Authors>eQuantic Systems</Authors>
-        <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
+        <TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
         <AssemblyName>eQuantic.Core.Mvc</AssemblyName>
         <PackageId>eQuantic.Core.Mvc</PackageId>
         <PackageTags>eQuantic;Core;Mvc;Library</PackageTags>
@@ -23,8 +23,8 @@
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
         <RepositoryUrl>https://github.com/eQuantic/core-mvc</RepositoryUrl>
         <RepositoryType>Git</RepositoryType>
-        <AssemblyVersion>2.0.2.0</AssemblyVersion>
-        <FileVersion>2.0.2.0</FileVersion>
+        <AssemblyVersion>2.0.3.0</AssemblyVersion>
+        <FileVersion>2.0.3.0</FileVersion>
         <PackageIcon>Icon.png</PackageIcon>
         <LangVersion>latest</LangVersion>
         <ImplicitUsings>enable</ImplicitUsings>
