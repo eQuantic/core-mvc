@@ -1,4 +1,5 @@
 using eQuantic.Core.Mvc.Binders.Filtering;
+using eQuantic.Linq.Filter;
 
 namespace eQuantic.Core.Mvc.Tests.Binders.Filtering;
 
@@ -9,7 +10,12 @@ public class FilteringParserTests
     public void FilteringParser_Parse(string values)
     {
         var result = FilteringParser.Parse(values);
+        var composite = result.ElementAt(0);
         
-        Assert.That(result.Count(), Is.EqualTo(1));
+        Assert.Multiple(() =>
+        {
+            Assert.That(result.Count(), Is.EqualTo(1));
+            Assert.That(composite, Is.InstanceOf<CompositeFiltering>());
+        });
     }
 }

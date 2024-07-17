@@ -40,7 +40,7 @@ public class FilteringModelBinder : IModelBinder
             {
                 continue;
             }
-
+            
             model.AddRange(FilteringParser.Parse(value));
         }
 
